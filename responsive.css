@@ -25,7 +25,7 @@
     }
 
     .hero-content h1 {
-        font-size: 7vmin;
+        font-size: 5.5vmin;
     }
 
     .benefits-section {
@@ -33,7 +33,15 @@
     }
 
     .benefits-heading .left {
-        font-size: 5vmin;
+        font-size: 4vmin;
+    }
+
+    .benefits-heading .right {
+        font-size: 2vmin;
+    }
+
+    .cards p {
+        font-size: 2vmin;
     }
 
     .p-products-text {
@@ -41,15 +49,23 @@
     }
 
     .p-products-text h3 {
-        font-size: 5vmin;
+        font-size: 4vmin;
+    }
+
+    .p-products-text p {
+        font-size: 2vmin;
     }
 
     .products-text h3 {
-        font-size: 5vmin;
+        font-size: 3.5vmin;
     }
 
     .products-rating div h3 {
-        font-size: 5vmin;
+        font-size: 3.5vmin;
+    }
+
+    .products-rating div p {
+        font-size: 2vmin;
     }
 
     .testimonial-text {
@@ -57,12 +73,14 @@
     }
 
     .testimonial-text h3 {
-        font-size: 5vmin;
+        font-size: 4vmin;
     }
 
 
+
+
     .left-article > h3 {
-        font-size: 5vmin;
+        font-size: 3.5vmin;
     }
 
     .article-container .right-article {
@@ -72,10 +90,15 @@
 
 
     .article-content h3 {
-        font-weight: 700;
-        color: #151411;
-        margin: 10px 0;
-        font-size: 2.5vmin;
+        font-size: 1.8vmin;
+    }
+
+    .txt-none {
+        display: none;
+    }
+
+    .article-date {
+        display: none;
     }
 
     .article-footer-left .user-name {
@@ -86,8 +109,17 @@
         font-size: 1.5vmin;
     }
 
+    .join {
+        flex-direction: column;
+    }
+
     .join p {
         font-size: 4vmin;
+        padding-bottom: 30px;
+    }
+
+    .join button {
+        width: 200px;
     }
 
     .footer-left .developer h3 {
@@ -97,6 +129,7 @@
 }
 
 @media (max-width: 1024px) {
+
     .navbar {
         padding: 36px 50px;
     }
@@ -130,7 +163,7 @@
     }
 }
 
-@media (max-width: 830px) {
+@media (max-width: 920px) {
 
     .site-logo {
         width: 100px;
@@ -482,10 +515,16 @@
         font-size: 3.5vmin;
     }
 
+    .owl-testimonial .testimonial-card {
+        width: 80%;
+    }
+
+    
     .owl-testimonial .testimonial-card img {
         width: 25px;
         height: 25px;
     }
+
 
     .testimonial-card .comment {
         font-size: 3.5vmin;
@@ -587,7 +626,5 @@
         color: #afadb5;
         font-size: 3vmin;
     }
-
-    
 
 }
