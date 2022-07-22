@@ -19,9 +19,6 @@
         integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- aos css link -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <!-- Custom CSS Link -->
     <link rel="stylesheet" href="style.css">
     <!-- Responsive CSS link -->
@@ -48,7 +45,7 @@
                     <a href="#"><i class="fas fa-user"></i></a>
                 </div>
             </div>
-            <i class="fa-solid fa-bars" id="toggleNav"></i>
+            <i class="fa-solid fa-bars" id="toggleNav" onclick="toggleNav()"></i>
         </div>
     </nav>
 
@@ -56,7 +53,7 @@
 
     <div class="hero-section">
 
-        <div class="hero-content" data-aos="zoom-in-up">
+        <div class="hero-content">
             <h1>Discover Furniture With High Quality Wood</h1>
             <p>
                 Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non. Purus
@@ -77,10 +74,10 @@
     <div class="benefits-section">
         <p class="txtY">Benefits</p>
         <div class="benefits-heading">
-            <div class="left" data-aos="fade-right">
+            <div class="left">
                 Benefits when using our services
             </div>
-            <div class="right" data-aos="fade-left">
+            <div class="right">
                 Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus
                 parturient.
             </div>
@@ -88,7 +85,7 @@
 
         <div class="benefits-cards">
 
-            <div class="cards" data-aos="fade-up-right" aos-delay="400">
+            <div class="cards">
                 <div class="card-img">
                     <img src="images/benefits/logo1.png">
                 </div>
@@ -97,7 +94,7 @@
                     Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.
                 </p>
             </div>
-            <div class="cards" data-aos="fade-down" aos-delay="400">
+            <div class="cards">
                 <div class="card-img">
                     <img src="images/benefits/logo2.png">
                 </div>
@@ -106,7 +103,7 @@
                     Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non.
                 </p>
             </div>
-            <div class="cards" data-aos="fade-up-left" aos-delay="400">
+            <div class="cards">
                 <div class="card-img">
                     <img src="images/benefits/logo3.png">
                 </div>
@@ -127,14 +124,14 @@
 
         <div class="p-products-text">
             <span class="txtY">Product</span>
-            <h3 data-aos="fade-up">Our popular product</h3>
-            <p data-aos="fade-down" aos-delay="200">
+            <h3>Our popular product</h3>
+            <p>
                 Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus
                 parturient.
             </p>
         </div>
 
-        <div class="owl-product owl-carousel owl-theme" data-aos="fade-down" aos-delay="800">
+        <div class="owl-product owl-carousel owl-theme">
 
             <div class="item p-product-cart">
                 <div class="p-product-img">
@@ -208,15 +205,15 @@
         <div class="products-content">
 
             <div class="products-text">
-                <h3 data-aos="fade-right" aos-delay="200">Crafted by talented and high quality material</h3>
-                <p data-aos="fade-right" aos-delay="400">
+                <h3>Crafted by talented and high quality material</h3>
+                <p>
                     Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non purus
                     parturient. morbi fermentum, vivamus et accumsan dui tincidunt pulvinar
                 </p>
-                <button type="submit" class="btn" data-aos="fade-right" aos-delay="600">Learn More</button>
+                <button type="submit" class="btn">Learn More</button>
             </div>
 
-            <div class="products-rating" data-aos="fade-down" aos-delay="800">
+            <div class="products-rating">
                 <div>
                     <h3>20<span>+</span></h3>
                     <p>Year Experiences</p>
@@ -231,11 +228,11 @@
                 </div>
             </div>
 
-            <div class="products-item1" data-aos="fade-right">
+            <div class="products-item1">
                 <img src="images/products/product5.png" >
             </div>
 
-            <div class="products-item2" data-aos="fade-left">
+            <div class="products-item2">
                 <img src="images/products/product6.png" >
             </div>
         </div>
@@ -250,15 +247,15 @@
 
         <div class="testimonial-text">
             <span class="txtY">Testimonials</span>
-            <h3 data-aos="fade-down" aos-delay="200">What our lovely customer say</h3>
-            <p data-aos="fade-down" aos-delay="400">
+            <h3>What our lovely customer say</h3>
+            <p>
                 Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, adipiscing mauris non
                 purus
                 parturient.
             </p>
         </div>
 
-        <div class="owl-testimonial owl-carousel owl-theme" data-aos="fade-up" aos-delay="600">
+        <div class="owl-testimonial owl-carousel owl-theme">
 
             <div class="testimonial-card">
                 <img src="images/testimonials/quote.png" >
@@ -340,10 +337,10 @@
         <div class="article-container">
 
             <div class="left-article">
-                <h3 data-aos="fade-right" aos-delay="200">The best furniture comes from Lalasia</h3>
-                <span data-aos="fade-right" aos-delay="400">Pellentesque etiam blandit in tincidunt at donec.</span>
+                <h3>The best furniture comes from Lalasia</h3>
+                <span>Pellentesque etiam blandit in tincidunt at donec.</span>
 
-                <div class="owl-article owl-carousel owl-theme" data-aos="fade-right" aos-delay="600">
+                <div class="owl-article owl-carousel owl-theme">
                     <div class="article-card">
                         <img src="images/articles/article1.png">
                         <div class="article-text">
@@ -385,7 +382,7 @@
 
             <div class="right-article">
 
-                <div class="article" data-aos="fade-left" aos-delay="800">
+                <div class="article">
 
                     <div class="article-img">
                         <img src="images/articles/article2.png" alt="">
@@ -409,7 +406,7 @@
                     </div>
                 </div>
 
-                <div class="article" data-aos="fade-left" aos-delay="1000">
+                <div class="article">
                 
                     <div class="article-img">
                         <img src="images/articles/article3.png" alt="">
@@ -433,7 +430,7 @@
                     </div>
                 </div>
 
-                <div class="article" data-aos="fade-left" aos-delay="1200">
+                <div class="article">
                 
                     <div class="article-img">
                         <img src="images/articles/article4.png" alt="">
@@ -468,8 +465,8 @@
     <div class="join-section">
 
         <div class="join">
-            <p data-aos="fade-right">Join with me to get special discount</p>
-            <button class="btn" data-aos="fade-left">Learn More  <i class="fa-solid fa-right-long"></i></button>
+            <p>Join with me to get special discount</p>
+            <button class="btn">Learn More  <i class="fa-solid fa-right-long"></i></button>
         </div>
 
         <div class="line"></div>
@@ -480,7 +477,7 @@
 
     <div class="footer-section">
 
-        <div class="footer-left"  data-aos="fade-right">
+        <div class="footer-left">
 
             <div class="developer">
                 <img src="images/testimonials/user1.png" >
@@ -491,7 +488,7 @@
         </div>
 
 
-        <div class="footer-right" data-aos="fade-left">
+        <div class="footer-right">
 
             <div class="footer-links">
                 <p>Product</p>
@@ -535,17 +532,13 @@
         integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <!-- AOS Javasccript Links -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
     <!-- custom js files -->
     <script>
 
-        AOS.init();
 
-        $("#toggleNav").on("click", function(){
-            $(".nav-items").slideToggle(400);
-        });
+
+       
 
 
 
@@ -624,6 +617,19 @@
             animateOut: 'fadeOut',
 
         })
+
+    </script>
+
+    <script>
+
+         function toggleNav() {
+            var navItems = document.querySelector(".nav-items");
+            if(navItems.classList.contains('show-nav-items')) {
+                navItems.classList.remove('show-nav-items');
+            }else {
+                navItems.classList.add('show-nav-items');
+            }
+         }
 
     </script>
     
