@@ -295,7 +295,9 @@
 
 @media (max-width: 728px) {
 
-
+    .nav-links li a {
+        font-size: 3.5vmin;
+    }
 
 
 }
@@ -337,6 +339,8 @@
     }
 
     /* navbar */
+
+    
 
     .navbar {
         padding: 13px;
