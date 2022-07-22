@@ -203,7 +203,9 @@
 
     .nav-links li {
         padding: 15px 10px;
+        border-bottom: 1px solid #f5f2f0;
     }
+
 
     .nav-links li a {
         font-size: 2.5vmin;
