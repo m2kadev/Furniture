@@ -165,21 +165,73 @@
 
 @media (max-width: 920px) {
 
-    .site-logo {
-        width: 100px;
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        position: relative;
     }
 
-    .site-logo img {
-        width: 100%;
+    .nav-items {
+        padding-left: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: absolute;
+        top: 78px;
+        height: 0;
+        width: 0px;
+        left: -300px;    
+        background-color: #fff;
+        z-index: 100;
+        transform: rotate(180deg);
+        transition: 0.8s ease-out;
+    }
+
+    .show-nav-items {
+        display: block;
+        left: 0;
+        transform: rotate(360deg);
+        width: 350px;
+        height: 100vh;
+    }
+
+    .nav-links {
+        flex-direction: column;
     }
 
     .nav-links li {
-        padding: 0 20px;
+        padding: 15px 10px;
     }
 
     .nav-links li a {
         font-size: 2.5vmin;
-        font-weight: 700;
+    }
+
+    .nav-icons a{
+        display: block;
+        padding-top: 10px;
+    }
+
+    #toggleNav {
+        display: block;
+        position: absolute;
+        font-size: 1.8rem;
+    }
+
+    #toggleNav {
+        right: 10%;
+    }
+
+    /* end responsive nav */
+
+    .site-logo {
+        width: 150px;
+    }
+
+    .site-logo img {
+        width: 100%;
     }
 
     .btn {
@@ -241,64 +293,7 @@
 
 @media (max-width: 728px) {
 
-    .navbar {
-        padding-top: 20px;
-        padding-bottom: 20px;
-        flex-direction: column;
-        align-items: flex-start;
-        position: relative;
-    }
 
-    .nav-items {
-        padding-left: 20px;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-        position: absolute;
-        top: 50px;
-        height: 0;
-        width: 0px;
-        left: -300px;    
-        background-color: #fff;
-        z-index: 100;
-        transform: rotate(180deg);
-        transition: 0.8s ease-out;
-    }
-
-    .show-nav-items {
-        display: block;
-        left: 0;
-        transform: rotate(360deg);
-        width: 300px;
-        height: 100vh;
-    }
-
-    .nav-links {
-        flex-direction: column;
-    }
-
-    .nav-links li {
-        padding: 15px 10px;
-    }
-
-    .nav-links li a {
-        font-size: 3.2vmin;
-    }
-
-    .nav-icons a{
-        display: block;
-        padding-top: 10px;
-    }
-
-    #toggleNav {
-        display: block;
-        position: absolute;
-        font-size: 1.8rem;
-    }
-
-    #toggleNav {
-        right: 10%;
-    }
 
 
 }
@@ -346,7 +341,7 @@
     }
 
     .site-logo {
-        width: 80px;
+        width: 150px;
     }
 
     #toggleNav {

@@ -19,6 +19,10 @@ a {
     text-decoration: none;
 }
 
+.active {
+    color: #ffb23f !important;
+}
+
 .btn {
     padding: 15px 40px;
     color: #fff;
